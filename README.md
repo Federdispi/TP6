@@ -14,7 +14,7 @@ La grille doit être remplie selon les règles classiques du Sudoku, c'est à di
 
 Le programme affiche alors 2 tableaux :
 * Le premier est le tableau initial qui ne sera pas modifié, ce qui permet de connaître les cases remplies par l'utilisateur.
-* Le deuxième est le tableau que le joueur peut modifier en rajoutant des valeurs dans les cases qu'au début étaient vides.
+* Le deuxième est le tableau que le joueur peut modifier en rajoutant des valeurs dans les cases qui au début étaient vides.
 
 Le joueur peut choisir 3 modes :
 * **Jouer :** l'utilisateur peut remplir une case du tableau tout en suivant les règles du Sudoku.
