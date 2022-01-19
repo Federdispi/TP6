@@ -115,13 +115,9 @@ bool Sudoku::findVide(int& ligne, int& colonne)
 //Resout le sudoku
 bool Sudoku::solve()
 {
-    Y++;
     int ligne, colonne;
-    if(!findVide(ligne, colonne))
-    { //On se place dans une case vide s'il y en a une, sinon on retourne true
-        std::cout<<Y;
+    if(!findVide(ligne, colonne))//On se place dans une case vide s'il y en a une, sinon on retourne true
         return true;
-    }
     for(int n = 1; n <= N; n++)
     {
         if(remplir(ligne, colonne, n))

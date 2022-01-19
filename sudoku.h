@@ -14,7 +14,6 @@ public:
     bool solve(); //Resout le sudoku
     bool findVide(int& ligne, int& colonne); //Cherche une case vide
 private:
-    int Y=0;
     std::array<std::array<int,N>,N> _tableau;
     int _complexite;
     bool ligneValide(int ligne, int n); //Verifie si la ligne du tableau est valide
